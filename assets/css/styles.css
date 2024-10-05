@@ -1,0 +1,141 @@
+.logo {
+  width: 200px;
+}
+.nav-link {
+  color: navy !important;
+}
+.link-color {
+  text-decoration: none;
+}
+.heading {
+  text-align: center;
+}
+.btn .btn-gap {
+  margin-bottom: 15px !important;
+}
+
+.btn-gap {
+  margin-top: 10px; /* Adds space above the submit button */
+}
+/* about page */
+.about-page h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.about-page p.lead {
+  font-size: 1.2rem;
+}
+
+.about-page img.rounded-circle {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* footer */
+footer {
+  background-color: #343a40;
+  color: #f8f9fa;
+}
+
+.logo-footer {
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+footer a {
+  color: #f8f9fa;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #f4623a;
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  background-color: #212529;
+  color: #f8f9fa;
+}
+
+footer hr {
+  background-color: #f4623a;
+}
+
+/* contact page  */
+.custom-map {
+  width: 100%;     /* Takes full width of the parent container */
+  height: 350px;   /* Fixed height */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.custom-map iframe {
+  width: 100%;  /* Ensures the iframe fills the custom-map container */
+  height: 100%;
+}
+
+/* contact details */
+.icon-container {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f1f1;
+  border-radius: 50%;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card h5 {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.card p {
+  margin-bottom: 0;
+  color: #555;
+}
+
+/* dropdown menu on hover on header section */
+/* Ensure the dropdown menu is hidden by default */
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+}
+
+/* Show the dropdown menu on hover */
+.nav-item:hover .dropdown-menu {
+  display: block;
+}
+
+/* Optional: Add custom styles for the dropdown menu and items */
+.dropdown-menu {
+  background-color: #f8f9fa; /* Background color */
+  border: 1px solid #dee2e6; /* Border color */
+}
+
+.dropdown-item {
+  color: #000; /* Text color */
+}
+
+.dropdown-item:hover {
+  background-color: #e9ecef; /* Background color on hover */
+  color: #000; /* Text color on hover */
+}
+
+/* hover dropdown for user profile  */
+
+
+
+
+
+
